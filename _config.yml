@@ -1,0 +1,20 @@
+# Site settings
+author: M. McClure
+title: Coding Chaos
+header-img: img/home-bg.png
+email: mcclme02@luther.edu
+copyright_name: M. McClure
+description: > # this means to ignore newlines until "baseurl:"
+  A beginner tries to maintain calm in the chaos of learning to code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  MMcClure11
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
